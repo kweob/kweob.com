@@ -13,38 +13,51 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major">
+    <section id="banner">
         <div class="inner">
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <p>慶應義塾大学ウインドアンサンブルOB吹奏楽団</p>
+            <!--
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    <li><a href="#one" class="button next scrolly">詳細</a></li>
                 </ul>
+            -->
             </div>
         </div>
     </section>
 
     <!-- Main -->
     <div id="main">
-
-        <!-- One -->
-        {% include tiles.html %}
-
         <!-- Two -->
         <section id="two">
             <div class="inner">
                 <header class="major">
-                    <h2>Massa libero</h2>
+                    <h2>次回の演奏会</h2>
                 </header>
-                <p>{{ content }}</p>
+                <h3>第17回 定期演奏会</h3>
+                <p>
+                    2018年9月8日（土） 14:00開場 15:00開演<br>
+                    新宿区立新宿文化センター 大ホール
+                </p>
+                <h4>曲目</h4>
+                <p>
+                    ジブリ・メドレー<br>
+                    カーペンターズ・フォーエバー<br>
+                    巴里の幻影<br>
+                    ラ・フォルム・ドゥ・シャク・アムール・ションジュ・コム・ル・カレイドスコープ 他
+                </p>
                 <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
+                    <li><a href="/next_concert.html" class="button next">詳細</a></li>
                 </ul>
             </div>
         </section>
+
+        <!-- One -->
+        {% include tiles.html %}
+
 
     </div>
 
