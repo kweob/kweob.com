@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 第18回 定期演奏会
+title: 次回定期演奏会
 #description: Lorem ipsum dolor est
 #image: assets/images/pic11.jpg
 nav-menu: true
